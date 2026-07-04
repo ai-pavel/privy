@@ -1,7 +1,7 @@
 # Zero Knowledge Proofs
 
-[![CI](https://github.com/pavel-genai/zero-knowledge-proofs/actions/workflows/ci.yml/badge.svg)](https://github.com/pavel-genai/zero-knowledge-proofs/actions/workflows/ci.yml)
-[![codecov](https://codecov.io/gh/pavel-genai/zk-proofs/branch/main/graph/badge.svg)](https://codecov.io/gh/pavel-genai/zk-proofs)
+[![CI](https://github.com/ai-pavel/zero-knowledge-proofs/actions/workflows/ci.yml/badge.svg)](https://github.com/ai-pavel/zero-knowledge-proofs/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/ai-pavel/zk-proofs/branch/main/graph/badge.svg)](https://codecov.io/gh/ai-pavel/zk-proofs)
 
 A TypeScript implementation of a simplified zk-SNARK proof system using arithmetic circuits, R1CS constraints, and a Groth16-like prove/verify flow over BN128.
 
