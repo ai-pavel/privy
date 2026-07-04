@@ -12,12 +12,18 @@
     "start": "node --loader ts-node/esm src/cli.ts",
     "prove": "node --loader ts-node/esm src/cli.ts prove",
     "verify": "node --loader ts-node/esm src/cli.ts verify",
-    "test": "vitest run",
+    "test": "vitest run --coverage",
     "test:watch": "vitest"
   },
-  "keywords": ["zero-knowledge", "zk-snark", "bn128", "cryptography"],
+  "keywords": [
+    "zero-knowledge",
+    "zk-snark",
+    "bn128",
+    "cryptography"
+  ],
   "license": "MIT",
   "devDependencies": {
+    "@vitest/coverage-v8": "^3.2.6",
     "ts-node": "^10.9.2",
     "typescript": "^5.7.0",
     "vitest": "^3.0.0"
